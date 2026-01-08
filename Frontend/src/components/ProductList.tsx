@@ -116,8 +116,8 @@ export default function ProductList({ searchQuery = '' }: ProductListProps) {
                       onClick={(e) => handleToggleWishlist(product, e)}
                       className={`absolute top-3 sm:top-4 right-3 sm:right-4 p-1.5 sm:p-2 rounded-full transition-all ${
                         inWishlist
-                          ? 'bg-red-500 text-white shadow-lg'
-                          : 'bg-white/90 text-slate-700 hover:bg-red-50 hover:text-red-500'
+                          ? 'bg-sky-500 text-white shadow-lg'
+                          : 'bg-white/90 text-slate-700 hover:bg-sky-50 hover:text-sky-500'
                       }`}
                     >
                       <Heart className={`w-4 h-4 sm:w-5 h-5 ${inWishlist ? 'fill-current' : ''}`} />

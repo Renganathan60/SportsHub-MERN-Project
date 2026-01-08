@@ -31,7 +31,7 @@ export default function Dashboard() {
   const [selectedProduct, setSelectedProduct] = useState<any | null>(null);
   const [heroIndex, setHeroIndex] = useState(0);
 
-  // Enhanced hero slides for sports e-commerce
+  // Enhanced hero slides for sports e-commerce - Sky Blue Theme
   const heroSlides = [
     {
       id: 1,
@@ -41,7 +41,7 @@ export default function Dashboard() {
       image: "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
       cta: "Shop Now",
       badge: "CLEARANCE SALE",
-      color: "from-red-600 to-orange-600"
+      color: "from-sky-500 to-blue-600"
     },
     {
       id: 2,
@@ -51,7 +51,7 @@ export default function Dashboard() {
       image: "https://images.pexels.com/photos/163452/basketball-dunk-blue-game-163452.jpeg",
       cta: "Explore Cricket",
       badge: "WORLD CUP SPECIAL",
-      color: "from-blue-600 to-green-600"
+      color: "from-sky-600 to-cyan-600"
     },
     {
       id: 3,
@@ -61,7 +61,7 @@ export default function Dashboard() {
       image: "https://images.pexels.com/photos/1263429/pexels-photo-1263429.jpeg",
       cta: "Start Training",
       badge: "FITNESS SPECIAL",
-      color: "from-purple-600 to-pink-600"
+      color: "from-sky-500 to-blue-500"
     }
   ];
 
@@ -150,10 +150,10 @@ export default function Dashboard() {
             </div>
             <div className="flex items-center gap-2 lg:gap-4">
               <div className="flex items-center gap-1 sm:gap-2">
-                <Facebook className="w-4 h-4 sm:w-5 h-5 lg:w-6 lg:h-6 text-slate-600 hover:text-blue-600 cursor-pointer transition-colors" />
-                <Twitter className="w-4 h-4 sm:w-5 h-5 lg:w-6 lg:h-6 text-slate-600 hover:text-blue-400 cursor-pointer transition-colors" />
-                <Instagram className="w-4 h-4 sm:w-5 h-5 lg:w-6 lg:h-6 text-slate-600 hover:text-pink-500 cursor-pointer transition-colors" />
-                <Youtube className="w-4 h-4 sm:w-5 h-5 lg:w-6 lg:h-6 text-slate-600 hover:text-red-500 cursor-pointer transition-colors" />
+                <Facebook className="w-4 h-4 sm:w-5 h-5 lg:w-6 lg:h-6 text-slate-600 hover:text-sky-600 cursor-pointer transition-colors" />
+                <Twitter className="w-4 h-4 sm:w-5 h-5 lg:w-6 lg:h-6 text-slate-600 hover:text-sky-500 cursor-pointer transition-colors" />
+                <Instagram className="w-4 h-4 sm:w-5 h-5 lg:w-6 lg:h-6 text-slate-600 hover:text-sky-400 cursor-pointer transition-colors" />
+                <Youtube className="w-4 h-4 sm:w-5 h-5 lg:w-6 lg:h-6 text-slate-600 hover:text-sky-600 cursor-pointer transition-colors" />
               </div>
               {user && (
                 <div className="flex items-center gap-1 sm:gap-2 text-sport-primary-600">
@@ -276,7 +276,7 @@ export default function Dashboard() {
                     </button>
                     <button
                       onClick={logout}
-                      className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-red-50 text-red-600 hover:bg-red-100 transition-all duration-300"
+                      className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-sky-50 text-sky-600 hover:bg-sky-100 transition-all duration-300"
                     >
                       <LogOut className="w-5 h-5 sm:w-6 h-6 lg:w-8 lg:h-8" />
                     </button>

@@ -67,7 +67,7 @@ export default function Cart({ onCheckout }: CartProps) {
               </div>
               <button
                 onClick={() => removeFromCart(item.product.id)}
-                className="text-red-600 hover:bg-red-50 p-2 rounded-lg transition"
+                className="text-sky-600 hover:bg-sky-50 p-2 rounded-lg transition"
               >
                 <Trash2 className="w-4 h-4" />
               </button>
