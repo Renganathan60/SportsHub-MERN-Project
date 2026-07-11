@@ -1,6 +1,6 @@
 # 🏏 SportsHub MERN Project
 
-A full-stack e-commerce platform for sports equipment built with the MERN stack (MongoDB, Express.js, React, Node.js).
+Full-stack sports e-commerce platform built with React.js, Node.js, Express.js & MongoDB. Features product browsing, cart, secure checkout & JWT authentication.
 
 ## 🚀 Project Overview
 
